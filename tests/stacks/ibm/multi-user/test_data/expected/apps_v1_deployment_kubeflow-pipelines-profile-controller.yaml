@@ -32,7 +32,7 @@ spec:
           valueFrom:
             configMapKeyRef:
               key: appVersion
-              name: pipeline-upstream-install-config-c958fm776d
+              name: pipeline-upstream-install-config-d7hkh24mdg
         - name: MINIO_ACCESS_KEY
           valueFrom:
             secretKeyRef:
@@ -55,5 +55,5 @@ spec:
           name: hooks
       volumes:
       - configMap:
-          name: kubeflow-pipelines-profile-controller-code-gd97t2m5f5
+          name: kubeflow-pipelines-profile-controller-code-7g6bb7c22k
         name: hooks
